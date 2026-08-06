@@ -27,7 +27,7 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 ## 📊 Dashboard Overview
 
 ### 1. Key Trends
-<img src="./Healthcare-Project/Key%20Trends.png" alt="Key Trends" width="800"/>
+<img src="./01-National-Healthcare-Analysis/Key%20Trends.png" alt="Key Trends" width="900"/>
 
 - 55,500 admitted patients, 40,341 doctors, 400 rooms/bedspace, avg LOS 15.51 days, avg billing $25,539.
 - **Admission by Day Type**: Weekday 71.49% vs Weekend 28.51%.
@@ -36,7 +36,7 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 - **Billing by admission type**: Elective, Emergency, and Urgent billing fluctuate seasonally between ~$24,800–$26,300 with no single type consistently highest.
 
 ### 2. Patients Demographics
-<img src="./Healthcare-Project/Patients%20Demographics.png" alt="Patients Demographics" width="800"/>
+<img src="./01-National-Healthcare-Analysis/Patients%20Demographics.png" alt="Patients Demographics" width="900"/>
 
 - **Blood group**: A+ most common (11.1K); more females than males across most groups.
 - **Diagnostic results**: Abnormal 55% (31K), Inconclusive 35% (19K), Normal only 10% (5,550) — majority of admitted patients show abnormal or inconclusive results.
@@ -44,7 +44,7 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 - Interactive medical condition selector with descriptive info panel (e.g., Arthritis).
 
 ### 3. Treatment & Cost
-<img src="./Healthcare-Project/Treatment%20%26%20Cost.png" alt="Treatment & Cost" width="800"/>
+<img src="./01-National-Healthcare-Analysis/Treatment%20%26%20Cost.png" alt="Treatment & Cost" width="900"/>
 
 - **Billing by Length of Stay**: Extended Stay (15+) patients account for the majority of billing (~0.25bn per admission type), far above Short Stay (~0.04–0.05bn).
 - **Billing by hospital**: Houston Methodist leads at 0.52bn — more than double Johns Hopkins (0.29bn) and roughly triple UCLA (0.18bn), consistent with its patient volume.
