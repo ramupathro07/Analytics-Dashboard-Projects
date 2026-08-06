@@ -69,3 +69,60 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 - **PowerPoint** — findings presentation
 
 ---
+
+# 🚗 Project 2: EV Pulse — Electric Vehicle Market Analytics
+
+> **Project 2 of my Data Analytics Portfolio.** A single-page Power BI dashboard analyzing the electric vehicle population — adoption trends, top makes/models, CAFV eligibility, and state-wise distribution — built to demonstrate end-to-end skills in data cleaning (EDA), data modeling, and interactive dashboard design.
+
+---
+
+## 📁 Project Structure
+
+```
+02-EV-Pulse-Market-Analytics/
+│
+├── EDA.ipynb                             → Exploratory Data Analysis (Python notebook)
+├── Electric Vehicle Presentation.pptx    → Presentation summary of findings
+├── Electric-Vehicle-Population-data...   → Raw/source EV population dataset
+├── Electric-Vehicles-Analysis.pbix       → Power BI report file (main deliverable)
+└── Electric-Vehicles-Population.png      → Screenshot of the dashboard
+```
+
+> **Note:** The PNG screenshot lives directly in this folder (not in a subfolder), so the README link below points to `./Electric-Vehicles-Population.png` — keep the image alongside `README.md` when uploading to GitHub or it won't render.
+
+The report is a **single-page dashboard** with a top KPI/filter panel (Total Vehicles, Avg Electric Range, BEV Vehicles, PHEV Vehicles) and a **Filter Panel** for City, Electric Utility, and Electric Vehicle Type.
+
+---
+
+## 📊 Dashboard Overview
+
+### Electric Vehicle Analysis
+<img src="./02-EV-Pulse-Market-Analytics/Electric-Vehicles-Population.png" alt="Electric Vehicle Analysis" width="900"/>
+
+- **Total Vehicles**: 150.42K, with an average electric range of 67.83 miles.
+- **Vehicle Type Split**: BEV (Battery Electric Vehicle) — 117K, 78% of total; PHEV (Plug-in Hybrid Electric Vehicle) — 34K, 22% of total.
+- **Total Vehicles by Model Year**: Steady growth from ~1K (2011) up to a peak of 37K, with 2020 showing 14K and 2021 at 11K — adoption accelerated sharply in the most recent years before a partial-year drop-off (likely an incomplete latest-year data point).
+- **Total Vehicles by State**: Washington leads by a wide margin, with most other U.S. states also represented on the map, indicating broad but WA-concentrated adoption.
+- **Total Vehicles by Make**: Tesla dominates with 69K vehicles — more than 5x the next closest make, Nissan (13K). Chevrolet (12K), Ford (8K), BMW (6K), Kia (6K), Toyota (5K), Volkswagen (4K), Volvo (4K), and Jeep (3K) round out the top 10.
+- **Total Vehicles by CAFV Eligibility**: Clean Alternative Fuel Vehicle Eligible — 70K (46.33%); Not Eligible — 63K (41.81%); Eligibility Unknown — 18K (11.86%).
+- **Total Vehicles by Model**: Model Y leads (29K), closely followed by Model 3 (28K) — together Tesla's two top models account for the bulk of volume. Leaf (13K), Bolt EV (6K), Model X (5K), Volt (5K), Niro (3K), and ID.4 (3K) follow.
+
+---
+
+## 🧵 Key Insight / Story
+
+1. **Adoption Trend** → EV adoption grew steadily year-over-year, with the sharpest jump occurring in the most recent full model years.
+2. **Make & Model** → Tesla is the clear market leader, driven almost entirely by the Model Y and Model 3.
+3. **Vehicle Type** → BEVs outnumber PHEVs nearly 4-to-1, showing a strong market tilt toward fully electric vehicles over hybrids.
+4. **Eligibility** → Under half of vehicles (46%) are confirmed Clean Alternative Fuel Vehicle eligible, while a large share (42%) are not eligible — a useful lens for policy/incentive analysis.
+
+**Conclusion**: Tesla's Model Y and Model 3 are the primary engines of EV market growth, BEVs are outpacing PHEVs by a wide margin, and adoption is heavily concentrated in Washington State.
+
+---
+
+## 🛠️ Tools Used
+- **Power BI** — dashboard build, DAX measures, interactivity
+- **Python (Jupyter/EDA.ipynb)** — data cleaning and exploratory analysis
+- **PowerPoint** — findings presentation
+
+---
