@@ -26,7 +26,16 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 
 ## 📊 Dashboard Overview
 
-### 1. Key Trends
+
+### 1. Patients Demographics
+<img src="./01-National-Healthcare-Analysis/Patients%20Demographics.png" alt="Patients Demographics" width="800"/>
+
+- **Blood group**: A+ most common (11.1K); more females than males across most groups.
+- **Diagnostic results**: Abnormal 55% (31K), Inconclusive 35% (19K), Normal only 10% (5,550) — majority of admitted patients show abnormal or inconclusive results.
+- **Hospital breakdown**: Houston Methodist Hospital leads with 20,402 total patients — over 3x the next largest, Johns Hopkins (11,268). Diabetes (5,104) and Hypertension (5,057) are its top conditions.
+- Interactive medical condition selector with descriptive info panel (e.g., Arthritis).
+
+### 2. Key Trends
 <img src="./01-National-Healthcare-Analysis/Key%20Trends.png" alt="Key Trends" width="800"/>
 
 - 55,500 admitted patients, 40,341 doctors, 400 rooms/bedspace, avg LOS 15.51 days, avg billing $25,539.
@@ -34,14 +43,6 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 - **LOS Buckets**: Extended Stay (15+) is the largest bucket at **53.16%**, followed by Long Stay (8–14) at 23.44%, Moderate Stay (4–7) at 13.48%, and Short Stay (1–3) at 9.91%.
 - **Monthly/Daily Breakdown**: Fairly even distribution across months (~4,500–4,900/month); August highest (4,832), February lowest (4,255); Wednesday busiest weekday overall (7,982 total).
 - **Billing by admission type**: Elective, Emergency, and Urgent billing fluctuate seasonally between ~$24,800–$26,300 with no single type consistently highest.
-
-### 2. Patients Demographics
-<img src="./01-National-Healthcare-Analysis/Patients%20Demographics.png" alt="Patients Demographics" width="800"/>
-
-- **Blood group**: A+ most common (11.1K); more females than males across most groups.
-- **Diagnostic results**: Abnormal 55% (31K), Inconclusive 35% (19K), Normal only 10% (5,550) — majority of admitted patients show abnormal or inconclusive results.
-- **Hospital breakdown**: Houston Methodist Hospital leads with 20,402 total patients — over 3x the next largest, Johns Hopkins (11,268). Diabetes (5,104) and Hypertension (5,057) are its top conditions.
-- Interactive medical condition selector with descriptive info panel (e.g., Arthritis).
 
 ### 3. Treatment & Cost
 <img src="./01-National-Healthcare-Analysis/Treatment%20%26%20Cost.png" alt="Treatment & Cost" width="800"/>
