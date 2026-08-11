@@ -73,7 +73,9 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 
 ---
 
-# 🚗 Project 2: EV Pulse — Electric Vehicle Market Analytics
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:FFFFFF&height=200&section=header&text=🚗%20Project%202:%20%20%20%20Electric%20Vehicle%20Market%20Analytics&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
+</p>
 
 > **Project 2 of my Data Analytics Portfolio.** A single-page Power BI dashboard analyzing the electric vehicle population — adoption trends, top makes/models, CAFV eligibility, and state-wise distribution — built to demonstrate end-to-end skills in data cleaning (EDA), data modeling, and interactive dashboard design.
 
