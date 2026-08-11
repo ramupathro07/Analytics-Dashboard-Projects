@@ -1,6 +1,7 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:C084FC&height=200&section=header&text=🏥%20Project%201:%20National%20Health%20Analysis%20Dashboard&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
 </p>
+
 > **Project 1 of my Data Analytics Portfolio.** A 3-page Power BI dashboard analyzing hospital admissions, patient demographics, and treatment costs across 10 major U.S. hospitals — built to demonstrate end-to-end skills in data modeling, DAX, and interactive dashboard design.
 
 ---
