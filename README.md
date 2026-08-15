@@ -188,3 +188,99 @@ The report is a **single-page dashboard** with a segment filter (**Consumer / Co
 - **Excel/CSV** — source and lookup data
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F766E,100:14B8A6&height=150&section=header&text=📊%20Project%204:%20Sales%20Region%20Insights%20Dashboard&fontSize=32&fontColor=FFFFFF&animation=fadeIn&fontAlignY=31" />
+</p>
+
+> **Project 4 of my Data Analytics Portfolio.** A Power BI dashboard analyzing product sales performance, regional returns, top sales persons, payment modes, and profitability across regions — built to demonstrate end-to-end skills in data modeling, DAX, and interactive dashboard design.
+
+---
+
+## 📁 Project Structure
+```
+04-Sales-Region-Insights-Dashboard/
+│
+├── Product-Sales-Region.xlsx          → Raw/cleaned source data
+├── Product-Sales-Regions.png          → Screenshot of the main dashboard
+└── Products-sales-regions.pbix        → Power BI report file (main deliverable)
+
+```
+
+
+
+> **Note:** Keep the PNG screenshot in the same folder as this README so the image link works on GitHub.
+
+---
+
+## 📊 Dashboard Overview
+
+### Key Performance Indicators
+
+| Metric               | Value     |
+|----------------------|-----------|
+| Total Sales          | 4.38M     |
+| Total Profit         | 4.34M     |
+| Total Orders         | 2K        |
+| Return %             | 0.25      |
+| Total Quantity       | 16K       |
+| Total Shipping Cost  | 41.26K    |
+
+<br>
+
+<img src="./04-Sales-Region-Insights-Dashboard/Product-Sales-Regions.png" alt="Sales Region Insights Dashboard" width="800"/>
+
+---
+
+### Visual Insights
+
+**Total Sales by Year**  
+- Strong growth from 2023 → 2024  
+- Peak year: **2024** (~1.8M)  
+- Noticeable decline in **2025**
+
+**Return % by Region**  
+- South / West / East → **0.26**  
+- Central / North → **0.23**  
+- Returns are quite consistent across regions
+
+**Top Sales Persons**  
+1. **Bob** (highest)  
+2. Frank  
+3. Carlos  
+4. Eva  
+5. Diana  
+
+**Products – Sales vs Profit**  
+- **Tablet** and **Laptop** lead both Sales and Profit  
+- Followed by: Printer → Monitor → Chair → Desk → Phone  
+- Profit closely follows sales across all categories
+
+**Mode of Payment**  
+- Online → **22.17%**  
+- Credit Card → **21.7%**  
+- Debit Card → **19.78%**  
+- Gift Card → ~18%  
+- Cash → **17.59%**
+
+---
+
+## 🧵 Key Insights / Story
+
+1. **Yearly Trend** → 2024 was the strongest year; 2025 shows a clear drop that needs investigation.  
+2. **People** → Bob is the standout top performer.  
+3. **Products** → Tablets and Laptops drive the highest sales and profit.  
+4. **Regions** → Return rates are very stable (0.23–0.26).  
+5. **Payments** → Digital methods (Online + Cards) dominate over Cash and Gift Cards.
+
+**Conclusion**  
+Focus on understanding the 2025 sales decline, leverage Bob’s success as a model for the team, and continue pushing high-margin products (Tablets & Laptops).
+
+---
+
+## 🛠️ Tools Used
+
+- **Power BI** — Dashboard, DAX measures, interactivity  
+- **Excel** — Source dataset
+
+---
