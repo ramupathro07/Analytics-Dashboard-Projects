@@ -133,7 +133,7 @@ The report is a **single-page dashboard** with a top KPI/filter panel (Total Veh
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:C084FC&height=200&section=header&text=🛒%20Project%203:%20E-Commerce%20Sales%20%26%20Profit%20Analysis&fontSize=32&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:F97316,100:EC4899&height=200&section=header&text=🛒%20Project%203:%20%20%20%20E-Commerce%20Sales%20%26%20Profit%20Analysis&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
 </p>
 
 > **Project 3 of my Data Analytics Portfolio.** A single-page Power BI dashboard analyzing e-commerce sales, profit, and shipping performance — built to demonstrate skills in data cleaning, DAX measures, and interactive dashboard design.
