@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:C084FC&height=150&section=header&text=🏥%20Project%201:%20National%20Health%20Analysis%20Dashboard&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=25" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:C084FC&height=150&section=header&text=🏥%20Project%201:%20National%20Health%20Analysis%20Dashboard&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=31" />
 </p>
 
 > **Project 1 of my Data Analytics Portfolio.** A 3-page Power BI dashboard analyzing hospital admissions, patient demographics, and treatment costs across 10 major U.S. hospitals — built to demonstrate end-to-end skills in data modeling, DAX, and interactive dashboard design.
@@ -74,7 +74,7 @@ The report has **3 pages** with a consistent navigation bar (Patients Demographi
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:FFFFFF&height=200&section=header&text=🚗%20Project%202:%20%20%20%20Electric%20Vehicle%20Market%20Analytics&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C853,100:FFFFFF&height=150&section=header&text=🚗%20Project%202:%20%20%20%20Electric%20Vehicle%20Market%20Analytics&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=31" />
 </p>
 
 > **Project 2 of my Data Analytics Portfolio.** A single-page Power BI dashboard analyzing the electric vehicle population — adoption trends, top makes/models, CAFV eligibility, and state-wise distribution — built to demonstrate end-to-end skills in data cleaning (EDA), data modeling, and interactive dashboard design.
@@ -133,7 +133,7 @@ The report is a **single-page dashboard** with a top KPI/filter panel (Total Veh
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B00,100:FFFFFF&height=200&section=header&text=🛒%20Project%203:%20Ecommerce%20Sales%20Profit%20Analysis%20&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:FF6B00,100:FFFFFF&height=150&section=header&text=🛒%20Project%203:%20Ecommerce%20Sales%20Profit%20Analysis%20&fontSize=35&fontColor=FFFFFF&animation=fadeIn&fontAlignY=31" />
 </p>
 
 > **Project 3 of my Data Analytics Portfolio.** A single-page Power BI dashboard analyzing e-commerce sales, profit, and shipping performance — built to demonstrate skills in data cleaning, DAX measures, and interactive dashboard design.
