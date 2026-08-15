@@ -131,3 +131,60 @@ The report is a **single-page dashboard** with a top KPI/filter panel (Total Veh
 - **PowerPoint** — findings presentation
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:C084FC&height=200&section=header&text=🛒%20Project%203:%20E-Commerce%20Sales%20%26%20Profit%20Analysis&fontSize=32&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38" />
+</p>
+
+> **Project 3 of my Data Analytics Portfolio.** A single-page Power BI dashboard analyzing e-commerce sales, profit, and shipping performance — built to demonstrate skills in data cleaning, DAX measures, and interactive dashboard design.
+
+---
+
+## 📁 Project Structure
+
+```
+03-Ecommerce-Sales-Profit-Analysis/
+│
+├── data/
+│   ├── ecommerce_data.csv                       → Raw source data
+│   └── us_state_long_lat_codes.csv              → State lat/long lookup for map visual
+│
+├── Ecommerce-Profit-Sales-Analysis.png          → Screenshot of the dashboard
+└── Ecommerce_Profit_Sales_Analysis_Dashboard.pbix → Power BI report file (main deliverable)
+```
+
+> **Note:** The screenshot's actual filename has a double extension (`Ecommerce-Profit-Sales-Analysis.png.png`) — keep it alongside `README.md` in the same folder, or rename the file to a single `.png` and update the path below if you'd rather clean it up.
+
+The report is a **single-page dashboard** with a segment filter (**Consumer / Corporate / Home Office**) and shared KPI cards: **YTD Sales, YTD Profit, YTD Quantity, YTD Profit Margin**.
+
+---
+
+## 📊 Dashboard Overview
+
+<img src="./03-Ecommerce-Sales-Profit-Analysis/Ecommerce-Profit-Sales-Analysis.png" alt="E-Commerce Profit & Sales Analysis" width="800"/>
+
+- **KPIs**: YTD Sales $11.53M (▼ 0.83%), YTD Profit $1.34M (▲ 4.50%), YTD Quantity 107.2K (▼ 7.29%), YTD Profit Margin 11.58% (▲ 0.05).
+- **Sales by Category**: Office Supplies leads with $6.92M (vs $7.00M PYTD, -1.22% YoY), followed by Furniture at $2.52M (+0.73% YoY) and Technology at $2.10M (-1.37% YoY) — Office Supplies is the only category near flat-to-declining alongside Technology, while Furniture is the sole grower.
+- **Sales by State**: Interactive map with bubble size by sales volume, colored by customer region (West, East, Central, South) — coastal and populous states show the largest bubbles.
+- **Top 5 Products by YTD Sales**: Staple envelope ($57K), Staples ($52K), Easy-staple paper ($47K), Staples in misc. supplies ($26K), KI Adjustable chair ($22K) — office supplies dominate the top sellers.
+- **Bottom 5 Products by YTD Sales**: Eldon Jumbo Pouch ($0.38K), Lexmark X 957 printer ($0.27K), Cisco SPA525G phone ($0.25K), Xerox Blank Copy paper ($0.23K), Rediform S.O.S. forms ($0.18K) — low-volume technology and office hardware items.
+- **YTD Sales by Region**: Four-way split ranging from $1.87M (16.17%) up to $3.72M (32.22%), with the other two regions at $2.67M (23.19%) and $3.28M (28.42%) — a fairly balanced geographic spread with no single region dominating.
+- **YTD Sales by Shipping Type**: Heavily skewed toward one shipping method at $6.98M (60.51%), followed by $2.22M (19.22%), $1.74M (15.1%), and $0.60M (5.17%) for the remaining types.
+
+---
+
+## 🧵 Key Insight / Story
+
+1. **Category mix** → Office Supplies drives the most revenue but is essentially flat/declining YoY, while Furniture is the only category showing growth.
+2. **Product concentration** → Top sellers are dominated by low-cost, high-volume office supplies (staples, paper), while the bottom sellers are pricier, low-volume tech/hardware items.
+3. **Shipping behavior** → The majority of orders (~60%) use a single shipping type, suggesting most customers default to standard shipping rather than paying for speed.
+
+**Conclusion**: Despite a slight dip in YTD Sales and Quantity, profit and profit margin both improved YoY — indicating better cost or pricing efficiency even as order volume softened. Category performance suggests future growth may come from Furniture and Technology rather than the already-saturated Office Supplies segment.
+
+---
+
+## 🛠️ Tools Used
+- **Power BI** — dashboard build, DAX measures, interactivity
+- **Excel/CSV** — source and lookup data
+
+---
