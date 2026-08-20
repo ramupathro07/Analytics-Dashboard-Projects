@@ -283,4 +283,6 @@ Focus on understanding the 2025 sales decline, leverage Bob’s success as a mod
 - **Power BI** — Dashboard, DAX measures, interactivity  
 - **Excel** — Source dataset
 
+
+
 ---
