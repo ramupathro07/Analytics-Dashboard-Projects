@@ -311,7 +311,7 @@ Focus on understanding the 2025 sales decline, leverage Bob’s success as a mod
 
 ## 📊 Dashboard Overview
 
-<img src="./Zomato-Dashboard.png" alt="Zomato Sales Analysis Dashboard" width="900"/>
+<img src="./05-Zomato-Restaurant-Analytics/Zomato-Dashboard.png" alt="Zomato Sales Analysis Dashboard" width="900"/>
 
 ### Key Performance Indicators (Top Cards)
 - **10K** Total Restaurants  
