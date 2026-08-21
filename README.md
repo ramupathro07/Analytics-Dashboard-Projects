@@ -286,3 +286,91 @@ Focus on understanding the 2025 sales decline, leverage Bob’s success as a mod
 
 
 ---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:E23744,100:FF6B6B&height=150&section=header&text=🍽️%20Project%205:%20Zomato%20Restaurant%20Sales%20Analytics&fontSize=32&fontColor=FFFFFF&animation=fadeIn&fontAlignY=31" />
+</p>
+
+> **Project 5 of my Data Analytics Portfolio.** A Power BI dashboard analyzing restaurant performance, ratings, votes, price ranges, and geographic distribution across cities and countries using Zomato sales data — built to demonstrate skills in data cleaning, modeling, DAX measures, and interactive visualization design.
+
+---
+
+## 📁 Project Structure
+```
+05-Zomato-Restaurant-Analytics/
+│
+├── Zomato-Restaurant-Sales-Analytics.pbix → Power BI report file (main deliverable)
+├── Zomato-Restaurant-Sales-Dataset.csv → Source dataset
+└── Zomato-Dashboard.png → Screenshot of the dashboard
+```
+
+
+> **Note:** The PNG screenshot lives directly in this folder (not in a subfolder), so the README link below points to `./Zomato-Dashboard.png` — keep the image alongside `README.md` when uploading to GitHub or it won't render.
+
+---
+
+## 📊 Dashboard Overview
+
+<img src="./Zomato-Dashboard.png" alt="Zomato Sales Analysis Dashboard" width="900"/>
+
+### Key Performance Indicators (Top Cards)
+- **10K** Total Restaurants  
+- **15** Total Countries  
+- **141** Total Cities  
+- **4M** Sum of Votes  
+
+### Visuals & Insights
+
+**1. Total Votes by Price Range (Gauge + Line Chart)**  
+- Overall votes shown on gauge: **25M** (scale 0M–51M).  
+- Line chart peaks at **Price Range 2** (~21K votes), followed by Price Range 1 (~16K), Price Range 3 (~13K), and Price Range 4 (~5K).  
+- Clear decline in votes as price range increases beyond 2.
+
+**2. Top Cities by Number of Restaurants**  
+- **New Delhi** dominates with **57.33%** of restaurants.  
+- Next: Gurgaon (**11.70%**), Noida (**11.29%**).  
+- Other cities (Faridabad, Ghaziabad, Ahmedabad, Amritsar, Bhubaneswar, Guwahati, Lucknow, Abu Dhabi, Agra, etc.) each contribute under 3%.
+
+**3. Distribution of Restaurants by Rating Color**  
+- **Orange**: 39.13% (largest share)  
+- **White**: 22.48%  
+- **Yellow**: 21.98%  
+- **Green**: 11.30%  
+- **Dark Green**: 3.15%  
+- **Red**: 1.95%  
+
+**4. Votes Distribution by Rating Category**  
+- **Very Good**: 1.42M votes  
+- **Good**: 1.24M votes  
+- **Excellent**: 0.62M votes  
+- **Average**: 0.42M votes  
+- **Poor**: 0.04M votes  
+- **Not rated**: 0.00M  
+
+### Interactive Filters
+- Price range  
+- Country Names  
+- Has Online delivery  
+- Is delivering now  
+
+All visuals respond to these slicers for dynamic exploration.
+
+---
+
+## 🧵 Key Insight / Story
+
+1. **New Delhi** accounts for more than half of all restaurants in the dataset.  
+2. **Price Range 2** restaurants attract the highest number of votes.  
+3. Majority of restaurants fall under **Orange / White / Yellow** rating colors (mid-to-good range).  
+4. **Very Good** and **Good** rating categories drive the bulk of total votes (together ~2.66M).  
+
+**Conclusion**: Mid-priced restaurants in high-density cities (especially New Delhi) with strong “Very Good / Good” ratings generate the highest engagement (votes). Online delivery availability and current delivery status can further refine targeting for growth.
+
+---
+
+## 🛠️ Tools Used
+- **Power BI** — dashboard build, DAX measures, interactivity  
+- **CSV / Excel** — source dataset  
+- **GitHub** — version control & portfolio hosting  
+
+---
